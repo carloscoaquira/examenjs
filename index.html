@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <title>Examen</title>
+</head>
+<body>
+    <div class="cargar-imagenes" style="display: none;">
+        <img class="img-1" src="./src/img/CoD_fsfe_Checklist_icon.png" alt="">
+        <img class="img-2" src="./src/img/Preguntas de examen teórico de conducción.png" alt="">
+    </div>
+    <div class="initPresentacion">
+        <div class="header">
+            <h1>javascript Quiz</h1>
+            <img class="header--img" src="./src/img/CoD_fsfe_Checklist_icon.png" alt="">
+            <h4>Test your Javascript knowledges</h4>
+            <button class="btn" id="starQuiz" >Start</button>
+        </div>
+        <div class="main-question">
+            <div class="question-block question-block-quiz1 hidden">
+                <h4>Q1. Javascript is a ___________ language</h4>
+                <form action="">
+                    <div>
+                        <input type="radio" name="quiz1" value="Programing" id="option1-1" required><label for="option1-1">Programing</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="quiz1" value="Application" id="option2-1"><label for="option2-1">Application</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="quiz1" value="Scripting" id="option3-1"><label for="option3-1">Scripting</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="quiz1" value="NaN" id="option4-1"><label for="option4-1">None of these</label>
+                    </div>
+                    <input class="add-form" type="submit" value="Submit">
+                </form>
+            </div>
+            <div class="question-block question-block-quiz2 hidden">
+                <h4>Q2. Javascript is ___________ side scripting Language</h4>
+                <form action="">
+                    <div>
+                        <input type="radio" name="quiz2" value="Server" id="option1-2" required><label for="option1-2">Server</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="quiz2" value="Client" id="option2-2"><label for="option2-2">Client</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="quiz2" value="ISP" id="option3-2"><label for="option3-2">ISP</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="quiz2" value="NaN" id="option4-2"><label for="option4-2">None of These</label>
+                    </div>
+                    <input class="add-form" type="submit" value="Submit">
+                </form>
+            </div>
+            <div class="question-block question-block-quiz3 hidden">
+                <h4>Q3. Javascript code is written inside file having extension ___________</h4>
+                <form action="">
+                    <div>
+                        <input type="radio" name="quiz3" value=".js" id="option1-3" required><label for="option1-3">.js</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="quiz3" value=".jsc" id="option2-3"><label for="option2-3">.jsc</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="quiz3" value=".jvs" id="option3-3"><label for="option3-3">.jvs</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="quiz3" value=".javascript" id="option4-3"><label for="option4-3">.javascript</label>
+                    </div>
+                    <input class="add-form" type="submit" value="Submit">
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+    <script type="text/javascript" src="/src/js/main.js"></script>
+</body>
+</html>
