@@ -69,6 +69,12 @@ body{
     background-color: #000;
     color: #fff;
 }
+.question-block form div{
+    margin-bottom: 10px;
+}
+.resultado-final{
+    margin-top: 20px;
+}
 @media screen and (max-width: 600px){
     .question-block form{
         grid-template-columns: repeat(1, 1fr);
